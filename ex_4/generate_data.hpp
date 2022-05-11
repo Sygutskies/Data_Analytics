@@ -27,8 +27,8 @@ static constexpr std::array<const char*, 25> locations_array__ =
  " (in 'C:/Users/adams/OneDrive/Pulpit/DATAAN~1/DATA_A~1/ex_4/generate_data.stan', line 24, column 3 to line 29, column 4)",
  " (in 'C:/Users/adams/OneDrive/Pulpit/DATAAN~1/DATA_A~1/ex_4/generate_data.stan', line 2, column 3 to column 24)",
  " (in 'C:/Users/adams/OneDrive/Pulpit/DATAAN~1/DATA_A~1/ex_4/generate_data.stan', line 3, column 3 to column 24)",
- " (in 'C:/Users/adams/OneDrive/Pulpit/DATAAN~1/DATA_A~1/ex_4/generate_data.stan', line 4, column 3 to column 14)",
- " (in 'C:/Users/adams/OneDrive/Pulpit/DATAAN~1/DATA_A~1/ex_4/generate_data.stan', line 5, column 3 to column 14)",
+ " (in 'C:/Users/adams/OneDrive/Pulpit/DATAAN~1/DATA_A~1/ex_4/generate_data.stan', line 4, column 3 to column 18)",
+ " (in 'C:/Users/adams/OneDrive/Pulpit/DATAAN~1/DATA_A~1/ex_4/generate_data.stan', line 5, column 3 to column 18)",
  " (in 'C:/Users/adams/OneDrive/Pulpit/DATAAN~1/DATA_A~1/ex_4/generate_data.stan', line 6, column 3 to column 42)",
  " (in 'C:/Users/adams/OneDrive/Pulpit/DATAAN~1/DATA_A~1/ex_4/generate_data.stan', line 10, column 10 to column 11)",
  " (in 'C:/Users/adams/OneDrive/Pulpit/DATAAN~1/DATA_A~1/ex_4/generate_data.stan', line 10, column 13 to column 14)",
@@ -89,10 +89,14 @@ class generate_data_model final : public model_base_crtp<generate_data_model> {
       alpha = std::numeric_limits<double>::quiet_NaN();
       
       
+      current_statement__ = 18;
+      alpha = 3;
       current_statement__ = 19;
       sigma = std::numeric_limits<double>::quiet_NaN();
       
       
+      current_statement__ = 19;
+      sigma = 1;
       current_statement__ = 20;
       sig_prob = std::numeric_limits<double>::quiet_NaN();
       
